@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.container {
+    width: 60%;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.esquerda {
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.direita {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(5, 5, 97);   
+}
+
+
+.esquerda form {
+    width: 70%;
+}
+
+.direita h2 {
+    margin-bottom: 16px;
+    color: #fff;
+}
+
+.direita p {
+    color: #fff;
+}
+
+
+.botao {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+}
+
